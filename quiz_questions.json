@@ -17,7 +17,7 @@
             "λ₁ = 4, λ₂ = 2, λ₃ = -1",
             "Values are arbitrary as long as λ₃ = 0"
         ],
-        "answer": "λ₁ = 0, λ₂ = 0, λ₃ = 0"
+        "answer": "Values are arbitrary as long as λ₃ = 0"
     },
     {
         "question": "If f(t) = t²i + tj + 3tk and g(t) = (rt-3)i + j - tk, find d/dt(f × g) at t = 0.",
@@ -27,7 +27,8 @@
             "−3i - 3j + k",
             "0"
         ],
-        "answer": "−3i - 3j + k"
+        "answer": "−3i + rj + k"
+
     },
     {
         "question": "Given f(t) = e^(-t)i + ln(t²+1)j + 2tk, find the magnitude |df(t)/dt| at t = 0.",
@@ -117,7 +118,7 @@
             "2",
             "3"
         ],
-        "answer": "0"
+        "answer": "3"
     },
     {
         "question": "Evaluate ∫C F ⋅ dr where F = x²i + y³j along y = x² from (0,0) to (1,1).",
@@ -163,11 +164,11 @@
         "question": "Differentiate y = 1/(1-2x³).",
         "options": [
             "-3x²/(1-2x³)²",
-            "-6x²/(1-2x³)²",
+            "6x²/(1-2x³)²",
             "3x²/(1-2x³)²",
             "2/(1-2x³)²"
         ],
-        "answer": "-3x²/(1-2x³)²"
+        "answer": "6x²/(1-2x³)²"
     },
     {
         "question": "Find the derivative of y = cosec(3/4 x²).",
@@ -287,7 +288,7 @@
             "3x² + 4x",
             "x² + 2x"
         ],
-        "answer": "2x + 2 - 1/x²"
+        "answer": "3x² + 4x"
     },
     {
         "question": "The formula for Lagrange’s Mean Value Theorem is:",
