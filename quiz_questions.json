@@ -1,0 +1,348 @@
+[
+    {
+        "question": "Determine the sum λ₁ + λ₂ + λ₃ if the vector field u = (x+2y+λ₁z)i + (λ₂x−3y−z)j + (4x+λ₃y+2z)k is conservative.",
+        "options": [
+            "5",
+            "7",
+            "9",
+            "12"
+        ],
+        "answer": "9"
+    },
+    {
+        "question": "Determine the scalars λ₁, λ₂, λ₃ if the vector field v = (λ₁ + 2y - z)i + (x - λ₂ + z)j + (4x + y + λ₃z)k is solenoidal.",
+        "options": [
+            "λ₁ = 0, λ₂ = 0, λ₃ = 0",
+            "λ₁ = 1, λ₂ = 1, λ₃ = 0",
+            "λ₁ = 4, λ₂ = 2, λ₃ = -1",
+            "Values are arbitrary as long as λ₃ = 0"
+        ],
+        "answer": "λ₁ = 0, λ₂ = 0, λ₃ = 0"
+    },
+    {
+        "question": "If f(t) = t²i + tj + 3tk and g(t) = (rt-3)i + j - tk, find d/dt(f × g) at t = 0.",
+        "options": [
+            "−3i + rj + k",
+            "3i - rj + k",
+            "−3i - 3j + k",
+            "0"
+        ],
+        "answer": "−3i - 3j + k"
+    },
+    {
+        "question": "Given f(t) = e^(-t)i + ln(t²+1)j + 2tk, find the magnitude |df(t)/dt| at t = 0.",
+        "options": [
+            "√2",
+            "√3",
+            "√5",
+            "3"
+        ],
+        "answer": "√5"
+    },
+    {
+        "question": "For a vector field F = F₁i + F₂j + F₃k, the divergence (div F) is expressed as:",
+        "options": [
+            "∂F₁/∂x + ∂F₂/∂y + ∂F₃/∂z",
+            "∂F₁/∂x i + ∂F₂/∂y j + ∂F₃/∂z k",
+            "∇ × F",
+            "∇²F"
+        ],
+        "answer": "∂F₁/∂x + ∂F₂/∂y + ∂F₃/∂z"
+    },
+    {
+        "question": "The formula for curl F is represented by the determinant of which matrix?",
+        "options": [
+            "[i, j, k; F₁, F₂, F₃]",
+            "[i, j, k; ∂/∂x, ∂/∂y, ∂/∂z; F₁, F₂, F₃]",
+            "[∂/∂x, ∂/∂y, ∂/∂z; F₁, F₂, F₃]",
+            "[F₁, F₂, F₃; i, j, k]"
+        ],
+        "answer": "[i, j, k; ∂/∂x, ∂/∂y, ∂/∂z; F₁, F₂, F₃]"
+    },
+    {
+        "question": "A vector function u is defined as solenoidal if:",
+        "options": [
+            "∇ × u = 0",
+            "∇ ⋅ u = 0",
+            "∇²u = 0",
+            "div u = 1"
+        ],
+        "answer": "∇ ⋅ u = 0"
+    },
+    {
+        "question": "A vector function F is conservative if:",
+        "options": [
+            "∇ × F = 0",
+            "∇ ⋅ F = 0",
+            "∇ϕ = 0",
+            "∫F ⋅ dr = 1"
+        ],
+        "answer": "∇ × F = 0"
+    },
+    {
+        "question": "Path independence of the integral ∫A B F ⋅ dr implies that the field F is:",
+        "options": [
+            "Solenoidal",
+            "Conservative",
+            "Constant",
+            "Rotational"
+        ],
+        "answer": "Conservative"
+    },
+    {
+        "question": "The gradient ∇ϕ of a scalar function ϕ(x,y,z) is:",
+        "options": [
+            "A scalar value",
+            "∂ϕ/∂x i + ∂ϕ/∂y j + ∂ϕ/∂z k",
+            "∂ϕ/∂x + ∂ϕ/∂y + ∂ϕ/∂z",
+            "∇ ⋅ ϕ"
+        ],
+        "answer": "∂ϕ/∂x i + ∂ϕ/∂y j + ∂ϕ/∂z k"
+    },
+    {
+        "question": "Determine ∇ϕ if ϕ = 4/r.",
+        "options": [
+            "4/r²",
+            "-4r/r²",
+            "-4r/r³",
+            "4ln(r)"
+        ],
+        "answer": "-4r/r³"
+    },
+    {
+        "question": "Calculate ∇²r for the position vector r = xi + yj + zk.",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "Evaluate ∫C F ⋅ dr where F = x²i + y³j along y = x² from (0,0) to (1,1).",
+        "options": [
+            "1/3",
+            "1/2",
+            "7/12",
+            "5/6"
+        ],
+        "answer": "7/12"
+    },
+    {
+        "question": "The vector identity ∇ ⋅ (ϕu) is equal to:",
+        "options": [
+            "ϕ(∇ ⋅ u) + u ⋅ (∇ϕ)",
+            "ϕ(∇ ⋅ u) - u ⋅ (∇ϕ)",
+            "∇ϕ + ∇u",
+            "ϕ∇u"
+        ],
+        "answer": "ϕ(∇ ⋅ u) + u ⋅ (∇ϕ)"
+    },
+    {
+        "question": "The derivative of a cross product d/dt(u × v) is:",
+        "options": [
+            "du/dt × dv/dt",
+            "du/dt × v + u × dv/dt",
+            "du/dt ⋅ v + u ⋅ dv/dt",
+            "v × du/dt + u × dv/dt"
+        ],
+        "answer": "du/dt × v + u × dv/dt"
+    },
+    {
+        "question": "Find dy/dx of y = (x² + 2x + 1)/x.",
+        "options": [
+            "1 - 1/x²",
+            "1 + 1/x²",
+            "2x + 2",
+            "x² - 1"
+        ],
+        "answer": "1 - 1/x²"
+    },
+    {
+        "question": "Differentiate y = 1/(1-2x³).",
+        "options": [
+            "-3x²/(1-2x³)²",
+            "-6x²/(1-2x³)²",
+            "3x²/(1-2x³)²",
+            "2/(1-2x³)²"
+        ],
+        "answer": "-3x²/(1-2x³)²"
+    },
+    {
+        "question": "Find the derivative of y = cosec(3/4 x²).",
+        "options": [
+            "-3/2 x cosec(3/4 x²)cot(3/4 x²)",
+            "3/2 x cosec²(3/4 x²)",
+            "-3/4 x cosec(3/4 x²)cot(3/4 x²)",
+            "-cosec(x)cot(x)"
+        ],
+        "answer": "-3/2 x cosec(3/4 x²)cot(3/4 x²)"
+    },
+    {
+        "question": "Differentiate y = sinh(3x).",
+        "options": [
+            "cosh(3x)",
+            "3cosh(3x)",
+            "3sinh(3x)",
+            "1/3 cosh(3x)"
+        ],
+        "answer": "3cosh(3x)"
+    },
+    {
+        "question": "Determine dy/dx for y = (1 + x²)/(1 - x²).",
+        "options": [
+            "2x/(1-x²)²",
+            "-4x/(1-x²)²",
+            "4x/(1-x²)²",
+            "4x/(1-x⁴)"
+        ],
+        "answer": "4x/(1-x²)²"
+    },
+    {
+        "question": "Find the derivative of y = √x (1+2x)².",
+        "options": [
+            "(1+2x)(1+10x)/(2√x)",
+            "(1+2x)/2√x",
+            "√x (4+8x)",
+            "(1+2x)(1+6x)"
+        ],
+        "answer": "(1+2x)(1+10x)/(2√x)"
+    },
+    {
+        "question": "If g(t) = 6t² + 5, evaluate the range for t = {0,1,2,3}.",
+        "options": [
+            "{5,11,29,59}",
+            "{0,6,24,54}",
+            "{5,17,41,77}",
+            "{11,29,59,101}"
+        ],
+        "answer": "{5,11,29,59}"
+    },
+    {
+        "question": "For R = 240x + 57x² - x³, find the output x for maximum revenue.",
+        "options": [
+            "10",
+            "38",
+            "40",
+            "42"
+        ],
+        "answer": "40"
+    },
+    {
+        "question": "For R = 240x + 57x² - x³, find the output x for minimum revenue.",
+        "options": [
+            "-2",
+            "0",
+            "15",
+            "40"
+        ],
+        "answer": "-2"
+    },
+    {
+        "question": "A Jacobian is fundamentally a:",
+        "options": [
+            "Sum of vectors",
+            "Determinant of partial derivatives",
+            "Product of integrals",
+            "Linear sequence"
+        ],
+        "answer": "Determinant of partial derivatives"
+    },
+    {
+        "question": "Evaluate ∫2x √(1+x²) dx.",
+        "options": [
+            "2/3 (1+x²)^(3/2) + C",
+            "1/3 (1+x²)^(3/2) + C",
+            "(1+x²)^(3/2) + C",
+            "2/3 √(1+x²) + C"
+        ],
+        "answer": "2/3 (1+x²)^(3/2) + C"
+    },
+    {
+        "question": "Evaluate ∫₀⁴ √(2x+1) dx.",
+        "options": [
+            "13/3",
+            "26/3",
+            "9",
+            "27/2"
+        ],
+        "answer": "26/3"
+    },
+    {
+        "question": "Find ∫x² ln|x| dx.",
+        "options": [
+            "x³/3 ln|x| - x³/9 + C",
+            "x³/3 ln|x| - x³/3 + C",
+            "x³ ln|x| + C",
+            "x²/2 + C"
+        ],
+        "answer": "x³/3 ln|x| - x³/9 + C"
+    },
+    {
+        "question": "Differentiate the simplified integral form of x √(x³ + 2x² + 1).",
+        "options": [
+            "2x + 2",
+            "2x + 2 - 1/x²",
+            "3x² + 4x",
+            "x² + 2x"
+        ],
+        "answer": "2x + 2 - 1/x²"
+    },
+    {
+        "question": "The formula for Lagrange’s Mean Value Theorem is:",
+        "options": [
+            "f(a) = f(b)",
+            "f'(c) = 0",
+            "f'(c) = (f(b) - f(a))/(b-a)",
+            "f(c) = (a+b)/2"
+        ],
+        "answer": "f'(c) = (f(b) - f(a))/(b-a)"
+    },
+    {
+        "question": "Hypothesis: A function must be continuous on [a,b] for LMVT.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "According to Rolle’s Theorem, f(a) must equal f(b).",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "An injective function is also known as:",
+        "options": [
+            "Onto",
+            "One-to-one",
+            "Bijective",
+            "Composite"
+        ],
+        "answer": "One-to-one"
+    },
+    {
+        "question": "A function with a range in the set of real numbers is a:",
+        "options": [
+            "Vector function",
+            "Complex function",
+            "Real-valued function",
+            "Null function"
+        ],
+        "answer": "Real-valued function"
+    },
+    {
+        "question": "If f(x) = x² + 1 and g(x) = 2x + 5, find (f ∘ g)(3).",
+        "options": [
+            "121",
+            "122",
+            "25",
+            "15"
+        ],
+        "answer": "122"
+    }
+]
